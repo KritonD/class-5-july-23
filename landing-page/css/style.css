@@ -1,7 +1,7 @@
 * {
     margin: 0px;
-    
 }
+
 a {
     text-decoration: none;
     color:white;
@@ -12,8 +12,28 @@ h3 {
     display:flex;
     justify-content: center;
     margin:10px;
-
 }
+
+hr {
+    margin:20px auto 70px;
+    width: 60%;
+}
+
+input {
+    width: 80%;
+    height:30px;
+    font-size: 15px;
+    border:1px solid grey;
+    border-radius: 3px;
+}
+
+
+/*.submit-button{
+    
+    background-color:#17a5e8;
+    color:white;
+
+}*/
 .background-image{
     background-image: url("/landing-page/img/apple-background-connection-399161.jpg");
     background-repeat: no-repeat;
@@ -55,7 +75,6 @@ h3 {
     margin:10px;
     color:white;
     font-size: 30px;
-    
 }
 
 .skills_list {
@@ -64,9 +83,11 @@ h3 {
 .interest_list {
     color:black;
 }
+
 .about-title{
     color:black;
 }
+
 .second-section{
     height:60px;
 }
@@ -101,6 +122,14 @@ h3 {
 
 }
 
+.copyright{
+    
+    background-color: lightgrey;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
 #contact-list-item{
     margin:10px;
 }
@@ -119,3 +148,30 @@ h3 {
     font-size:25px;
 
 }
+/*supposed to be a class*/
+
+#contact-title{
+    color:black;
+    font-size: 35px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact_me{
+    color:black;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 80px;
+
+}
+
+#contact_me div{
+    
+    margin:20px auto 10px;
+    width: 60%;
+
+}
+
