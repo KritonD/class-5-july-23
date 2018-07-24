@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 0;
 }
 
 a {
@@ -19,21 +19,6 @@ hr {
     width: 60%;
 }
 
-input {
-    width: 80%;
-    height:30px;
-    font-size: 15px;
-    border:1px solid grey;
-    border-radius: 3px;
-}
-
-
-/*.submit-button{
-    
-    background-color:#17a5e8;
-    color:white;
-
-}*/
 .background-image{
     background-image: url("/landing-page/img/apple-background-connection-399161.jpg");
     background-repeat: no-repeat;
@@ -51,8 +36,8 @@ input {
 
 }
 .navigation-items{
-    display:flex;
     list-style: none;
+    display:flex;
     flex-direction: row;
 
 }
@@ -65,15 +50,17 @@ input {
     height:80vh;
 }
 
-.title-1{
+.title-1, .title-2{
     margin:10px;
     color:white;
+}
+.title-1{
+
     font-size: 60px;
 }
 
 .title-2{
-    margin:10px;
-    color:white;
+
     font-size: 30px;
 }
 
@@ -84,12 +71,12 @@ input {
     color:black;
 }
 
-.about-title{
+.about-title, li{
     color:black;
 }
 
 .second-section{
-    height:60px;
+    height:60vh;
 }
 
 .skills_interests_container{
@@ -105,7 +92,7 @@ input {
     border: 2px solid black;
     border-radius: 5px;
     font-size:20px;
-    margin-right: 100px;
+    margin-right: 50px;
 
 }
 .interests{
@@ -121,7 +108,13 @@ input {
     padding: 20px 70px 30px 70px;
 
 }
-
+.contact-title{
+    color:black;
+    font-size: 35px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+}
 .copyright{
     
     background-color: lightgrey;
@@ -130,15 +123,10 @@ input {
     text-align: center;
 
 }
-#contact-list-item{
+#contact-list-item, #about-list-item, #blog-list-item{
     margin:10px;
 }
-#about-list-item{
-    margin:10px;
-}
-#blog-list-item{
-    margin:10px;
-}
+
 
 #about{
     display:flex;
@@ -146,16 +134,6 @@ input {
     margin:20px;
     padding-bottom: 40px;
     font-size:25px;
-
-}
-/*supposed to be a class*/
-
-#contact-title{
-    color:black;
-    font-size: 35px;
-    margin:20px;
-    display: flex;
-    justify-content: center;
 }
 
 #contact_me{
@@ -170,8 +148,27 @@ input {
 
 #contact_me div{
     
-    margin:20px auto 10px;
-    width: 60%;
-
+    margin:20px;
+    width:40%;
 }
 
+#contact_me input {
+    width: 80%;
+    height:30px;
+    font-size: 15px;
+    border:1px solid grey;
+    border-radius: 3px;
+}
+
+#contact_me textarea {
+  width: 80%;
+  height: 100px;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-radius:3px;
+}
+.submit-button{
+    
+    background-color:#17a5e8;
+    color:white;
+}
