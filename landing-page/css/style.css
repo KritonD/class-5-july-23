@@ -1,5 +1,6 @@
 * {
   margin:0;
+  font-family: helvetica;
 }
 
 a {
@@ -11,13 +12,15 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgba(225,205,206, 1);; /*change this to the pink in the picture*/
+  height:100%;
 }
 
 .navigation-bar{
-  background-color: rgba(0,0,0, 0.01);
+  background-color: rgba(0,0,0, 0.1);
   display:flex;
   justify-content: flex-end;
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 30px;
   padding-left: 30px;
 }
@@ -37,28 +40,42 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height:80vh;
+  height:100vh;
+  line-height: 100%;
 }
 
 .title-1, .title-2 {
-  margin: 10px;
+  /*margin: 10px; removed after moving the fonts up*/
   color: white;
+
 }
 
 .title-1 {
-  font-size:60px;
+  font-size:55px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  height: 50%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
 }
 
 .title-2 {
-  font-size:30px;
+  font-size:32px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  height: 50%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
 }
 
 .about-title, li, h3 {
   color:black;
 }
 
-.second_section {
-  height:60vh;
+.about_me {
+  height:40vh;
   }
 
 #about {
@@ -75,13 +92,13 @@ h3 {
   margin:10px;
 }
 
-.skills_interests_container {
+.skills_passions_container {
   display: flex;
   flex-direction: row;
   justify-content: center;
  }
 
-.skills, .interests {
+.skills, .passions {
   border: 2px solid black;
   border-radius: 5px;
   font-size:20px;
@@ -91,7 +108,7 @@ h3 {
   margin-right:100px;
 }
 
-.skills-list, .interests-list {
+.skills-list, .passions-list {
     padding:20px 70px 30px 70px;
 }
 
@@ -131,22 +148,23 @@ hr {
   border-radius: 3px;
 }
 
-#contact_me textarea {
+textarea {
   width: 80%;
   height: 100px;
   font-size: 15px;
   border: 1px solid grey;
   border-radius:3px;
+  resize: none;
 }
 
 
-.submit-button {
+submit-button {
   background-color:#17a5e8;
   color:white;
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: rgba(0,0,0, 0.1);
   margin-top: 10px;
   padding: 10px;
   text-align: center;
