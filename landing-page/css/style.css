@@ -23,6 +23,8 @@ a {
   font-size: 18px;
   padding-right: 30px;
   padding-left: 30px;
+  position: fixed;
+  width:97%;
 }
 
 .navigation-items {
